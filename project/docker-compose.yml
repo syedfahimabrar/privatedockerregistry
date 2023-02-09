@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  registry:
+    image: registry:2
+    ports:
+      - "${REGISTRY_PORT}:5000"
+    volumes:
+      - ./:/certs/
+    environment:
+      REGISTRY_HTTP_ADDR: 0.0.0.0:5000
+      REGISTRY_HTTP_TLS_CERTIFICATE: /certs/registry.crt
+      REGISTRY_HTTP_TLS_KEY: /certs/registry.key
+
