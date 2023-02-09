@@ -1,6 +1,7 @@
 # privatedockerregistry
 
 You can up and run your private docker registry by executing just two commands:
+
 for the remote host:
 ```bash
 git pull https://github.com/syedfahimabrar/privatedockerregistry.git
