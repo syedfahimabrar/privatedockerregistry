@@ -4,7 +4,7 @@ You can up and run your private docker registry by executing just two commands:
 
 for the remote host:
 ```bash
-git pull https://github.com/syedfahimabrar/privatedockerregistry.git
+git clone https://github.com/syedfahimabrar/privatedockerregistry.git
 cd project
 sudo chmod +x run-registry.sh
 ./run-registry.sh
