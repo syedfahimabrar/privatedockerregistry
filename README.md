@@ -1,5 +1,6 @@
 # privatedockerregistry
 
+### step by step guide with detailed description: https://blog.fahimabrar.com/a-docker-adventure-setting-up-your-own-private-docker-registry-inside-a-docker-container
 You can up and run your private docker registry by executing just two commands:
 
 for the remote host:
